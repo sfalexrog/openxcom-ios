@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B28C40F5201F7374008FBBCB /* SDL_framerate.c in Sources */ = {isa = PBXBuildFile; fileRef = B28C40F0201F7373008FBBCB /* SDL_framerate.c */; };
+		B28C40F6201F7374008FBBCB /* SDL_imageFilter.c in Sources */ = {isa = PBXBuildFile; fileRef = B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */; };
+		B28C40F7201F7374008FBBCB /* SDL_gfxPrimitives.c in Sources */ = {isa = PBXBuildFile; fileRef = B28C40F2201F7373008FBBCB /* SDL_gfxPrimitives.c */; };
+		B28C40F8201F7374008FBBCB /* SDL_rotozoom.c in Sources */ = {isa = PBXBuildFile; fileRef = B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */; };
+		B28C40F9201F7374008FBBCB /* SDL_gfxBlitFunc.c in Sources */ = {isa = PBXBuildFile; fileRef = B28C40F4201F7373008FBBCB /* SDL_gfxBlitFunc.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B28C403D201F6E08008FBBCB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B28C403F201F6E08008FBBCB /* libSDL_gfx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_gfx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B28C40F0201F7373008FBBCB /* SDL_framerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_framerate.c; path = ../../../Sources/SDL_gfx/SDL_framerate.c; sourceTree = "<group>"; };
+		B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_imageFilter.c; path = ../../../Sources/SDL_gfx/SDL_imageFilter.c; sourceTree = "<group>"; };
+		B28C40F2201F7373008FBBCB /* SDL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxPrimitives.c; path = ../../../Sources/SDL_gfx/SDL_gfxPrimitives.c; sourceTree = "<group>"; };
+		B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_rotozoom.c; path = ../../../Sources/SDL_gfx/SDL_rotozoom.c; sourceTree = "<group>"; };
+		B28C40F4201F7373008FBBCB /* SDL_gfxBlitFunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxBlitFunc.c; path = ../../../Sources/SDL_gfx/SDL_gfxBlitFunc.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B28C403C201F6E08008FBBCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B28C4036201F6E08008FBBCB = {
+			isa = PBXGroup;
+			children = (
+				B28C405B201F6E50008FBBCB /* src */,
+				B28C4040201F6E08008FBBCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B28C4040201F6E08008FBBCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B28C403F201F6E08008FBBCB /* libSDL_gfx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B28C405B201F6E50008FBBCB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B28C40F0201F7373008FBBCB /* SDL_framerate.c */,
+				B28C40F4201F7373008FBBCB /* SDL_gfxBlitFunc.c */,
+				B28C40F2201F7373008FBBCB /* SDL_gfxPrimitives.c */,
+				B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */,
+				B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B28C403E201F6E08008FBBCB /* SDL_gfx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28C4048201F6E08008FBBCB /* Build configuration list for PBXNativeTarget "SDL_gfx" */;
+			buildPhases = (
+				B28C403B201F6E08008FBBCB /* Sources */,
+				B28C403C201F6E08008FBBCB /* Frameworks */,
+				B28C403D201F6E08008FBBCB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDL_gfx;
+			productName = SDL_gfx;
+			productReference = B28C403F201F6E08008FBBCB /* libSDL_gfx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B28C4037201F6E08008FBBCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Alexey;
+				TargetAttributes = {
+					B28C403E201F6E08008FBBCB = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = 38S292YZ37;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B28C403A201F6E08008FBBCB /* Build configuration list for PBXProject "SDL_gfx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B28C4036201F6E08008FBBCB;
+			productRefGroup = B28C4040201F6E08008FBBCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B28C403E201F6E08008FBBCB /* SDL_gfx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B28C403B201F6E08008FBBCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B28C40F9201F7374008FBBCB /* SDL_gfxBlitFunc.c in Sources */,
+				B28C40F5201F7374008FBBCB /* SDL_framerate.c in Sources */,
+				B28C40F6201F7374008FBBCB /* SDL_imageFilter.c in Sources */,
+				B28C40F8201F7374008FBBCB /* SDL_rotozoom.c in Sources */,
+				B28C40F7201F7374008FBBCB /* SDL_gfxPrimitives.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B28C4046201F6E08008FBBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B28C4047201F6E08008FBBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B28C4049201F6E08008FBBCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38S292YZ37;
+				HEADER_SEARCH_PATHS = ../../Sources/SDL/include;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B28C404A201F6E08008FBBCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 38S292YZ37;
+				HEADER_SEARCH_PATHS = ../../Sources/SDL/include;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B28C403A201F6E08008FBBCB /* Build configuration list for PBXProject "SDL_gfx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C4046201F6E08008FBBCB /* Debug */,
+				B28C4047201F6E08008FBBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28C4048201F6E08008FBBCB /* Build configuration list for PBXNativeTarget "SDL_gfx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B28C4049201F6E08008FBBCB /* Debug */,
+				B28C404A201F6E08008FBBCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B28C4037201F6E08008FBBCB /* Project object */;
+}
