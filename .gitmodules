@@ -1,0 +1,13 @@
+[submodule "Sources/OpenXcom"]
+	path = Sources/OpenXcom
+	url = https://github.com/sfalexrog/OpenXcom
+	branch = WIP/better_render
+[submodule "Sources/yaml-cpp"]
+	path = Sources/yaml-cpp
+	url = https://github.com/jbeder/yaml-cpp
+[submodule "Sources/SDL_gfx"]
+	path = Sources/SDL_gfx
+	url = https://github.com/sfalexrog/SDL_gfx
+[submodule "Sources/SDL"]
+	path = Sources/SDL
+	url = https://github.com/spurious/SDL-mirror
