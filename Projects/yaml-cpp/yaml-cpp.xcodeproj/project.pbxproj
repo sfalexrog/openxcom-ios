@@ -188,7 +188,8 @@
 				B28C40AC201F6F2D008FBBCB /* tag.h */,
 				B28C4082201F6F28008FBBCB /* token.h */,
 			);
-			path = src;
+			name = src;
+			path = "../../Sources/yaml-cpp/src";
 			sourceTree = "<group>";
 		};
 		B28C4096201F6F2A008FBBCB /* contrib */ = {

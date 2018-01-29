@@ -28,11 +28,11 @@
 
 /* Begin PBXFileReference section */
 		B28C403F201F6E08008FBBCB /* libSDL_gfx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSDL_gfx.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		B28C40F0201F7373008FBBCB /* SDL_framerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_framerate.c; path = ../../../Sources/SDL_gfx/SDL_framerate.c; sourceTree = "<group>"; };
-		B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_imageFilter.c; path = ../../../Sources/SDL_gfx/SDL_imageFilter.c; sourceTree = "<group>"; };
-		B28C40F2201F7373008FBBCB /* SDL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxPrimitives.c; path = ../../../Sources/SDL_gfx/SDL_gfxPrimitives.c; sourceTree = "<group>"; };
-		B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_rotozoom.c; path = ../../../Sources/SDL_gfx/SDL_rotozoom.c; sourceTree = "<group>"; };
-		B28C40F4201F7373008FBBCB /* SDL_gfxBlitFunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SDL_gfxBlitFunc.c; path = ../../../Sources/SDL_gfx/SDL_gfxBlitFunc.c; sourceTree = "<group>"; };
+		B28C40F0201F7373008FBBCB /* SDL_framerate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_framerate.c; sourceTree = "<group>"; };
+		B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_imageFilter.c; sourceTree = "<group>"; };
+		B28C40F2201F7373008FBBCB /* SDL_gfxPrimitives.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gfxPrimitives.c; sourceTree = "<group>"; };
+		B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_rotozoom.c; sourceTree = "<group>"; };
+		B28C40F4201F7373008FBBCB /* SDL_gfxBlitFunc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SDL_gfxBlitFunc.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +71,8 @@
 				B28C40F1201F7373008FBBCB /* SDL_imageFilter.c */,
 				B28C40F3201F7373008FBBCB /* SDL_rotozoom.c */,
 			);
-			path = src;
+			name = src;
+			path = ../../Sources/SDL_gfx;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
